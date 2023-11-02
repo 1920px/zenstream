@@ -21,7 +21,10 @@
     ];
 
   document.addEventListener('DOMContentLoaded', function () {
-    const player = new Plyr('.vid1', { controls });
+    const player = new Plyr('.vid1', {
+      controls,
+      ratio: '16:9' // Set the aspect ratio to 16:9
+    });
 
     player.on('error', function (event) {
       const videoElem = player.media;

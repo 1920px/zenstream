@@ -7,8 +7,8 @@
       'rewind', // Rewind by the seek time (default 10 seconds)
       'progress', // The progress bar and scrubber for playback and buffering
       'current-time', // The current time of playback
-      'previewThumbnails',
-      'duration', // The full duration of the media
+      // 'previewThumbnails',
+      // 'duration', // The full duration of the media
       'fast-forward', // Fast forward by the seek time (default 10 seconds)
       'mute', //Toggle mute
       'volume', // Volume control

@@ -4724,7 +4724,7 @@ typeof navigator === "object" &&
           1440: "HD",
           1080: "FHD",
           720: "HD",
-          486: "SD",
+          480: "SD",
           360: "SD",
         },
       },
